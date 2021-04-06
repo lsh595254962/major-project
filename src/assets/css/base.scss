@@ -1,0 +1,15 @@
+// 变量
+$activeColor: #f49e38;
+
+// mixin混合器
+@mixin ellipsis {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+@mixin icon-bg($url) {
+  width: 22px;
+  height: 22px;
+  background: url($url) no-repeat;
+  background-size: cover;
+}

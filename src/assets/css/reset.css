@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Microsoft YaHei;
+  font-size: 14px;
+  height: 100%;
+  background-color: #fff;
+}
+a {
+  text-decoration: none;
+}
+
+ul li {
+  cursor: pointer;
+}
+li {
+  list-style: none;
+}
+.clearfix:after {
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.more {
+  cursor: pointer;
+}
+h3 {
+  font-size: 20px;
+  font-weight: bold;
+  float: left;
+  width: 60%;
+  padding-left: 30px;
+  position: relative;
+}
+h3 i,.s-time i,.e-time i {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.pai-y-icon {
+  background: url("../img/pai-yellow.png") no-repeat;
+  background-size: cover;
+  width: 26px;
+  height: 26px;
+}
+.pai-b-icon {
+  background: url("../img/pai-blue.png") no-repeat;
+  background-size: cover;
+  width: 26px;
+  height: 26px;
+}
+.time-icon {
+  background: url("../img/n-time-icon.png") no-repeat;
+  background-size: cover;
+  width: 22px;
+  height: 22px;
+}
+.b-time-icon{
+  background: url("../img/b-time-icon.png") no-repeat;
+  background-size: cover;
+  width: 22px;
+  height: 22px;
+}
+.s-icon{
+  background: url("../img/shipin.png") no-repeat;
+  background-size: cover;
+  width: 22px;
+  height: 22px;
+}
+.t-icon{
+  background: url("../img/text-icon.png") no-repeat;
+  background-size: cover;
+  width: 22px;
+  height: 22px;
+}
+.hot-icon{
+  background: url("../img/hot-icon.png") no-repeat;
+  background-size: cover;
+  width: 20px;
+  height: 22px;
+}
+.name-icon{
+  background: url("../img/name-icon.png") no-repeat;
+  background-size: cover;
+  width: 20px;
+  height: 22px;
+}
+.des-icon{
+  background: url("../img/des-icon.png") no-repeat;
+  background-size: cover;
+  width: 20px;
+  height: 22px;
+}
+.type-icon{
+  background: url("../img/type-icon.png") no-repeat;
+  background-size: cover;
+  width: 20px;
+  height: 22px;
+}
+.send-icon{
+  background: url("../img/send-icon.png") no-repeat;
+  background-size: cover;
+  width: 20px;
+  height: 22px;
+}
+.mes-icon{
+  background: url("../img/mes-icon.png") no-repeat;
+  background-size: cover;
+  width: 22px;
+  height: 22px;
+}
